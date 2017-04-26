@@ -1,9 +1,0 @@
-p:first-of-type
-{
-	text-transform: uppercase; /* Заглавные буквы */
-}
-
-p:last-of-type
-{
-	color: #999;
-}
