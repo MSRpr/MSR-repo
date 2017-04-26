@@ -1,0 +1,68 @@
+
+table { 
+	border: 1px solid #000; /* Граница вокруг таблицы */
+    border-spacing: 2px 2px; /* Расстояние между границ */
+	width: 350px;
+	height: 100px;
+}
+td { 
+    border: 1px solid #000;
+    border-spacing: 7px 11px;
+    text-align: center;
+}
+
+h2 {
+	color: orange;
+}
+
+em {
+	background-color: green;
+	color: white;
+}
+tr {
+	font-weight: bold;
+}
+
+ul {
+	font-weight: bold;
+}
+
+#allotment .fruits-list
+{
+	color: grey;
+}
+
+.vegetables-list
+{
+	color: red;
+}
+
+#warehouse .fruits-list
+{
+   color: green;
+}
+
+span {
+	font-size: 30px;
+	color: red;
+}
+
+tbody td:nth-child(n+2)
+{
+  background-color: green;
+  color: white;  
+}
+
+tbody td:nth-child(1)
+{
+	color: orange;
+}
+
+#warehouse h2 {
+	color: blue;
+}
+
+.h1-title {
+	color: orange;
+	text-align: right;
+}
