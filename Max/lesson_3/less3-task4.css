@@ -1,0 +1,12 @@
+a[href="http://ya.ru"], a[href="https://mail.ya.ru"], a[href="http://maps.yandex.ru"]
+{
+color: #f70;
+}
+a[href="http://maps.yandex.ru"]:after{
+	content: "⇱";
+	position:absolute;
+  transform: scaleX(-1);
+}
+a[href="http://google.com"], a[href="http://maps.google.com"], a[href="http://news.google.com"]{
+	color: #666;
+}
