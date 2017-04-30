@@ -13,6 +13,7 @@ li.clear {
 
 li a {
 text-decoration: none;
+display: inline;
 text-align:  center;
 color: #a64dff;
 border: 1px solid #dddddd;
@@ -23,7 +24,7 @@ font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
 li a:hover {
-border: none;
+border: 1px solid #a64dff;
 background: #a64dff;
 color: #ffffff;
 }
