@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  width: 270px;
+  text-transform: uppercase;
+  font-family: Trebuchet MS;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.text {
+  padding: 25px 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background: darkorange;
+}
+
+.child .graph {
+  font-size: 20px;
+  opacity: 0.7;
+  padding: 20px 0;
+}
+
+.baby {
+  font-size: 70px;
+  color: #35495a;
+  padding-bottom: 15px;
+}
+
+.child .baby:before {
+  content: "$ ";
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.child .baby:after {
+  content: "Monthly";
+  font-size: 18px;
+  vertical-align: bottom;
+  text-transform: none;
+}
+
+.tab {
+  font-size: 15px;
+  color: #888c94;
+  padding: 0px 40px;
+  text-align: left;
+}
+
+.tab li {
+  position: relative;
+  list-style-type: none;
+  background: #edf5fd;
+  padding: 5px 5px 5px 40px;
+  border-bottom: 1px solid white;
+}
+
+.tab .lev2 {
+  text-transform: none;
+}
+
+.tab li:before {
+  content: '';
+  position: absolute;
+  background: url(http://www.clipartbest.com/cliparts/xTg/Bry/xTgBryETA.png) no-repeat;
+  background-size: contain;
+  width: 17px;
+  height: 19px;
+  top: 8px;
+  left: 8px;
+}
+
+.tab li:nth-child(even) {
+  background: #f5f5f6;
+}
+
+.btn {
+  width: 230px;
+  background: darkorange;
+  text-align: center;
+  margin: 10px 0 20px 20px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0px #b3560b;
+}
+
+.btn:active {
+  position:relative;
+  top:3px;
+  box-shadow: none;
+}
+
+.back{
+  margin: 20% 0 0 5%;
+}

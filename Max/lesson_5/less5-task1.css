@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    font: 18px "Impact", sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.container li {
+    display: inline-block;
+    padding: 1% 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topbar li:hover,
+.bottombar li:hover {
+    background: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.topbar {
+    text-transform: uppercase;
+    background: dodgerblue;
+}
+
+.topbar a {
+    color: white;
+}
+
+.bottombar {
+    width: 100%;
+    position: absolute;
+    background: whitesmoke;
+    text-transform: none;
+    top: 58px;
+    left: 0;
+    display: none;
+}
+
+.topbar li:hover .bottombar {
+    display: block;
+}
+
+.topbar li:hover a {
+    color: dodgerblue;
+}
+
+.bottombar li:hover a {
+    color: grey;
+}
+
+.back{
+	margin: 30% 0 0 5%;
+}
