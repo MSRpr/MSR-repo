@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: url(task2f.psd);
+  width: 1400px;
+  height: 316px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font: 27pt Trebuchet MS, sans-serif;
+  color: #1e88e5;
+  padding-top: 3%;
+  opacity: 0.9;
+}
+
+.orange {
+  color: #ff9800;
+  opacity: 0.9;
+}
+
+.customer {
+  width: 580px;
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  left: 100px;
+}
+
+.img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 9%;
+}
+
+.article {
+  position: absolute;
+  padding: 10px 16px;
+  width: 364px;
+  height: 80px;
+  background: white;
+  left: 180px;
+  font: 11pt 'Trebuchet MS', sans-serif;
+  opacity:0.9;
+}
+.article:before {
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: -29px;
+  border: 15px solid transparent;
+  border-right: 15px solid #ffffff;
+}
+.header {
+  border-bottom: 1px dashed #666666;
+  line-height: 25px;
+  font-style: Italic;
+  font-weight: bold;
+  color: #1e88e5;
+}
+.client {
+  float: right;
+}
+.descript {
+  padding-top: 10px;
+  color:#666666;
+}
