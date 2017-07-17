@@ -1,0 +1,50 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+form {
+    position: relative;
+    max-width: 60%;
+    min-width: 500px;
+    background: #f2b543;
+    padding: 5px 0 5px 5px;
+}
+
+.form2 {
+    background: linear-gradient(to top, #ff9933, #ffcc33);
+    max-width: 62%;
+    min-width: 650px;
+}
+
+form:after {
+    content: '';
+    position: absolute;
+    border: 29px solid transparent;
+    border-left: 20px solid #f2b543;
+    left: 100%;
+    top: 0;
+}
+
+.form2:after {
+    content: '';
+    position: absolute;
+    border: 29px solid white;
+    border-left: 20px solid transparent;
+    left: 97%;
+    top: 0;
+}
+
+input[type="search"] {
+    width: 85%;
+    height: 2em;
+}
+
+input[type="submit"] {
+    width: 70px;
+    height: 2em;
+}
+
+input[type="checkbox"] {
+    margin-top: 5px;
+}
