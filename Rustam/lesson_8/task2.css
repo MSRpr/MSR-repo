@@ -1,0 +1,81 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-size: 120%;
+}
+
+.describe {
+    display: inline-block;
+    width: 18%;
+    margin: 2%;
+}
+
+.describe-block {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.describe-block h2 {
+	margin: 60px 0 10px 0;
+	font-size: 140%;
+	font-family: arial;
+	text-transform: uppercase;
+	color: #41525c;
+	font-weight: 550;
+}
+
+.describe-block p {
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+    font-size: 140%;
+    font-family: arial;
+    color: #3070a8;
+}
+
+.describe-block span {
+	font-family: arial;
+    color: #999999;
+    font-size: 90%;
+}
+
+.blok {
+    background: url(4.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+.text-blok {
+    padding: 5% 35% 1% 10%;
+    line-height: 175%;
+}
+
+.text-blok ul {
+	padding: 3% 0 4% 3%;
+}
+
+.text-blok li {
+	padding-bottom: 25px;
+	color: #8c8d8d;
+	font-family: arial;
+}
+
+.text-blok h2 {
+	margin-bottom: 5px;
+	font-size: 140%;
+	font-family: arial;
+	text-transform: uppercase;
+	line-height: 175%;
+	color: #ee8129;
+	font-weight: 300;
+}
+
+.text-blok span {
+	font-family: arial;
+	font-style: italic;
+	color: #ffffff;
+}

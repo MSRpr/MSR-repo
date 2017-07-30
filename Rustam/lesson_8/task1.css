@@ -1,0 +1,46 @@
+.block {
+    background: #ffcd5c;
+    max-width: 615px;
+    border: #ffcd5c;
+    border: 3px solid #ffcd5c;
+    margin: 2px;
+    position: relative;
+}
+
+.text {
+	width: 520px;
+	height: 20px;
+	margin-left: 4px;
+	margin-top: 2px;
+}
+
+.submit {
+	width: 70px;
+    height: 25px;
+}
+
+.block:after {
+	content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 618px; bottom: -4px; /* Положение треугольника */
+    border: 28px solid transparent;	
+    border-left: 10px solid #ffcd5c;
+}
+
+.block1 {
+    padding: 2px;
+    margin-top: 12px;
+    background: linear-gradient(to top, #ff9933, #ffcc33);
+    width: 635px;
+    position: relative;
+
+}
+
+.block1:after {
+	content: ''; 
+    position: absolute;
+    border: 26px solid white;
+    border-left: 13px solid transparent;
+    left: 623px;
+    top: 0;
+}
