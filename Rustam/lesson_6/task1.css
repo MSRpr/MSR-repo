@@ -1,0 +1,217 @@
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent form {
+	width: 300px;
+	border: 4px solid #ff8b38;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.parent1 form {
+	width: 300px;
+	border: 1px solid #e8eaec;
+	border-radius: 5px;
+	text-align: center;
+
+}
+
+.parent2 form {
+	width: 300px;
+	border: 1px solid #e8eaec;
+	border-radius: 5px;
+	text-align: center;
+}
+
+form div {
+	background: #ff8b38;
+	color: white;
+	padding: 31px;
+	font-size: 150%;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+form .head1 {
+	background: #00b89a;
+	color: white;
+	padding: 25px;
+	font-size: 150%;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	overflow: hidden;
+	border-radius: 0 5px 0 0;
+}
+
+form .head2 {
+	background: #2cc2d4;
+	color: white;
+	padding: 25px;
+	font-size: 150%;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-radius: 5px 0 0 0;
+}
+
+.button
+{
+	background: #ff8b38;
+	border: none;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    color: white;
+    font-size: 90%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 3px 0px 0px #b3560b; 
+}
+
+.button1
+{
+	background: #3070a8;
+	border: none;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    color: white;
+    font-size: 90%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 3px 0px 0px #13436c; 
+}
+
+.text {
+	text-transform: uppercase;
+	font-size: 120%;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #35495a;
+}
+
+.bigtext {
+	font-size: 460%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #35495a;
+	
+}
+
+.dollar {
+    vertical-align: top;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #35495a;
+}
+
+.month {
+    vertical-align: sub;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #35495a;
+}
+
+.text2 {
+	width: 80%;
+	margin-top: 20px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #888c94;
+	padding: 2%;
+	margin: 0 auto;
+	padding-left: 10%; 
+
+}
+
+.text3 {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #888c94;
+	background: #edf5fd;
+	padding: 2%;
+	padding-left: 10%; 
+}
+
+.text2:nth-child(2n) {
+	width: 80%;
+	background: #edf5fd;
+	padding: 2%;
+	text-align: left;
+	margin: 0 auto;
+	padding-left: 10%; 
+}
+
+p span{
+	margin-right: 15px;
+	color: #97be09;
+	font-size: 20px;
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    z-index: 3;
+}
+
+.block {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -245px 0 0 -160px;
+  }
+
+  .parent1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    z-index: 2;
+}
+
+.block1 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -230px 0 0 145px;
+  }
+
+    .parent2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    z-index: 1;
+}
+
+.block2 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -230px 0 0 -460px;
+  }
