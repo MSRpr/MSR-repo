@@ -1,0 +1,61 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+.block div {
+	position: relative;
+}
+
+.front {
+	position: absolute;
+    width: 360px;
+    height: 260px;
+}
+
+.back {
+	display: inline-block;
+    width: 360px;
+    height: 260px;
+    background: #33abf7;
+}
+.back i {
+	margin: 100px 10px 0 0;
+	padding: 4%;
+	color: white;
+	border: 1px solid white;
+	border-radius: 3px;
+}
+.block div:hover .front {
+    opacity: 0.5;
+}
+.block div:hover .back {
+    opacity: 0.5;
+}
+.text {
+	text-align: center;
+	font-family: 'Lato';
+	margin-top: 4%;
+	font-size: 130%;
+}
+.text h1 {
+    margin-bottom: 15px;
+    opacity: .8; 
+}
+.text span {
+	font-size: 70%;
+	opacity: .5;
+}
+.block {
+    display: block;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    margin-top: 2%;
+}
+.img-block {
+	display: inline-block;
+	margin: 0 auto;
+	margin: 30px 30px 0 0;
+}
+
