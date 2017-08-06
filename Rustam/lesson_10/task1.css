@@ -26,11 +26,15 @@
 	border: 1px solid white;
 	border-radius: 3px;
 }
+
 .block div:hover .front {
     opacity: 0.5;
 }
 .block div:hover .back {
-    opacity: 0.5;
+    opacity: 0.8;
+}
+i {
+	opacity: 1;
 }
 .text {
 	text-align: center;
